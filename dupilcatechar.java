@@ -11,7 +11,7 @@ public class dupilcatechar{
 	
 	public void findduplicatechar(String str){
 		HashMap<Character,Integer> map = new HashMap<>();
-		char[] ch = str.toCharArray();
+		//char[] ch = str.toCharArray();
 		for(int i = 0; i < ch.length; i++){
 			map.put(ch[i],map.getOrDefault(ch[i],0)+1);
 		}

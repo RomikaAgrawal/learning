@@ -12,7 +12,7 @@ class Account {
 		this.bal = bal;
 	}
   void withdraw(int amt){
-		int bal = getBalance();
+	//	int bal = getBalance();
 		try{
 			Thread.sleep(500);
 		}catch(InterruptedException e){
