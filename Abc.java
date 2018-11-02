@@ -7,7 +7,7 @@ class examp{
 }
 
 class Abc extends examp{
-	int a = 30;
+//	int a = 30;
 	static void m(){
 		System.out.println("main class is called");
 	}
