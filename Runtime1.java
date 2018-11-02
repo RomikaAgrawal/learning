@@ -15,7 +15,7 @@ class Account {
 	//	int bal = getBalance();
 		try{
 			Thread.sleep(500);
-		}catch(InterruptedException e){
+	//	}catch(InterruptedException e){
 			
 		}
 		bal = bal-amt;
